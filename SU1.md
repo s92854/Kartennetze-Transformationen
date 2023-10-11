@@ -52,3 +52,6 @@ Für Netzberechnungen im Maßstab 1:2 Mio. und kleiner (1:3 Mio., 1:4 Mio., etc.
 * sind wie erddurchdringende Flächen
 * jeder Meridian ist gleich lang
 * jeder Meridian ist ein Halbkreis
+
+## Bogenminute in Kilometern = 1 Seemeile
+$$\frac{40.000km}[360*60}=1,851km
