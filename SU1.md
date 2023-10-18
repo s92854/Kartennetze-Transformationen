@@ -54,4 +54,25 @@ Für Netzberechnungen im Maßstab 1:2 Mio. und kleiner (1:3 Mio., 1:4 Mio., etc.
 * jeder Meridian ist ein Halbkreis
 
 ## Bogenminute in Kilometern = 1 Seemeile
-$$\frac{40.000km}[360*60}=1,851km
+$$\frac{40.000km}{360*60}=1,851km$$
+
+## Fläche Deutschland berechnen
+$\delta = 90° - \Phi$
+
+
+## Begriffe
+Azimutale Abbildung = Eine Fläche mit Verwendung einer Hilfsfläche
+Kegelprojektion
+Zylinderprojektion
+Normale, Erdachsige Abbildungen
+Transversale, Querachsige Abbildungen
+
+### Echte oder Unechte Abbildung?
+siehe AB
+
+A = 1
+B = 0
+C = 0
+D = 1
+E = 0
+F = 0
