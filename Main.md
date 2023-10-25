@@ -111,3 +111,20 @@ $AO = d + cos\delta$
 
 $PO = 1 + d$
 
+#### Berechnungen von s in 10° Schritten
+Für
+
+00° = 0
+10° = 0,1745
+20° = 0,3490
+30° = 0,5234
+40° = 0,6972
+50° = 0,8996
+60° = 1,0392
+70° = 1,2037
+80° = 1,3592
+90° = 1,5
+
+## Azimutalabbildungen
+Für d = 0 (Gnomische Projektion):
+$\phi > 0$
