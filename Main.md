@@ -61,11 +61,14 @@ $\delta = 90° - \Phi$
 
 
 ## Begriffe
-Azimutale Abbildung = Eine Fläche mit Verwendung einer Hilfsfläche
-Kegelprojektion
-Zylinderprojektion
-Normale, Erdachsige Abbildungen
-Transversale, Querachsige Abbildungen
+* Azimutale Abbildung = Eine Fläche mit Verwendung einer Hilfsfläche
+* Kegelprojektion
+* Zylinderprojektion
+* Normale, Erdachsige Abbildungen
+* Transversale, Querachsige Abbildungen
+* Vermittelnde Projektionen/Abbildungen = Projektionen, die ein wenig flächenverzerrt und ein wenig winkelverzerrt sind
+* Orthodrome = Großkreis; kürzeste Entfernung zwischen zwei Punkten
+* Loxodrome = Schneidet alle Breiten in gleichem Winkel
 
 ### Echte oder Unechte Abbildung?
 siehe AB
@@ -76,3 +79,35 @@ C = 0
 D = 1
 E = 0
 F = 0
+
+## Eigenschaften von Abbildungen
+Längentreue bezieht sich immer auf eine Richtung
+> wenn Längentreue in Nord-Süd Richtung: trotzdem ist am Äquator Längentreue gegeben
+
+## Strahlensatz am Einheitskreis
+$\frac{PN'}{PO} = \frac{AN}{AO}$
+
+$S = PN'$
+
+$S = \frac{AN * PO}{AO}$
+
+$s = \frac{sin\delta * (1 + d)}{d + cos\delta}$
+
+&nbsp;
+
+### Herleitungen
+
+$sin\delta = \frac{AN}{1} = AN$
+
+&nbsp;
+
+$AO = d + AM$
+
+$cos\delta = \frac{AM}{1}$
+
+$AO = d + cos\delta$
+
+&nbsp;
+
+$PO = 1 + d$
+
