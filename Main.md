@@ -128,3 +128,24 @@ Für
 ## Azimutalabbildungen
 Für d = 0 (Gnomische Projektion):
 $\phi > 0$
+
+
+## Doppelwinkelfunktion
+
+$s=\frac{sind\delta * (1+d)}{d+cos\delta}$
+
+$s=\frac{sin\delta*2}{1+cos\delta}$
+
+$s=\frac{2*2sin(\frac{\delta}{2})*cos(\frac{\delta}{2})}{1+2cos^2(\frac{\delta}{2})-1}$
+
+$s=\frac{4*sin(\frac{\delta{2})*cos(\frac{\delta}{2}))}{2*cos(\frac{\delta}{2}))}$
+
+&nbsp;
+
+i) $sin(2\xi)=2sin\xi*cos\xi$
+
+$sin\delta=2sin(\frac{\delta}{2})*cos(\frac{\delta}{2}$
+
+ii) $cos(2\xi)=2cos^2(\xi)-1$
+
+$cos(\delta)=2cos^2(\frac{delta}{2})-1$
