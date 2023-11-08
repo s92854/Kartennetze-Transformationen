@@ -138,7 +138,7 @@ $s=\frac{sin\delta*2}{1+cos\delta}$
 
 $s=\frac{2*2sin(\frac{\delta}{2})*cos(\frac{\delta}{2})}{1+2cos^2(\frac{\delta}{2})-1}$
 
-$s=\frac{4*sin(\frac{\delta{2})*cos(\frac{\delta}{2}))}{2*cos(\frac{\delta}{2}))}$
+$s=\frac{4*sin(\frac{\delta}{2})*cos(\frac{\delta}{2}))}{2*cos(\frac{\delta}{2}))}$
 
 &nbsp;
 
@@ -151,24 +151,44 @@ ii) $cos(2\xi)=2cos^2(\xi)-1$
 $cos(\delta)=2cos^2(\frac{delta}{2})-1$
 
 
-## Exkurs: Transformationen
-### Geographic Coordinate System (GCS)
-Definiert wo die Daten auf der Erdoberfläche verortet sind
-* Verwendet eine dreidimensionalen sphäroidischen Oberfläche
-* Positionen werden daher in Winkelmaßeinheiten (meist Grad) angegeben
-* Benötigt außerdem einen Nullmeridian und ein Datum
-* Zur Verwendung mit globalen Datensätzen geeignet
-* ArcGIS projiziert die Daten zu Bearbeitungs- und Analysezwecken auf ein lokales planares Koordinatensystem
+## Mittabständige, polare Azimutalabbildung
+Größen für $\varphi=0°,\varphi=30°, \varphi=60° und \varphi=90°$ berechnen:
 
-### Projected Coordinte System (PCS)
-Definiert wie Daten auf einer flachen, zweidimensionalen Oberfläche dargestellt werden
-* Positionen werden in linearen Einheiten (bspw. Meter) angegeben
-* Verfügen über konstante Längen, Winkel und Flächen
-* Basieren stets auf einem geographischen Koordinatensystem
-* Insbesondere zur Verwendung mit lokalen Datensätzen geeignet
-* Zur zweidimensionalen Ausgabe in Form von Karten sollte stets ein projiziertes Koordinatensystem verwendet werden
+$\delta = 90° - \varphi$
 
-### EPSG (European Petrol Survey Group)
+|$\varphi$|&delta;|s|
+|--|--|--|
+|$\varphi=0°$|90|$\frac{1}{2}\pi = 1,571$|
+|$\varphi=30°$|60|$\frac{1}{3}\pi = 1,047$|
+|$\varphi=60°$|30|$\frac{1}{6}\pi = 0,524$|
+|$\varphi=90°$|0|0|
+
+## Tissotsche Indikatrix
+Nur bei echten Abbildungen liegen die Verzerrungsellipsen entlang des Netzes
+
+|Abbildungseigenschaften|Bedingung|Synonym|
+|---|---|---|
+|(partielle) Längentreue (L)|$a = 1$ oder $b = 1$||
+|Flächentreue (F)|$a * b = 1$|Flächenverzerrung|
+|Konformität (K)|$a = b$||
+
+Maximalwert der Winkelverzerrung: $sin(\frac{\omega}{2}) = \frac{(a-b)}{(a+b)}$
+
+$\frac{df(x)}{dx}$ bedeutet: Die Funktion $f(x)$ soll nach der Variable $x$ abgeleitet werden
 
 
-7-Parameter-Helmerttransformation
+### Ableitungen der trigonometrischen Funktionen
+|Funktion|Ableitung|
+|--|--|
+|$sin(x)$|$cos(x)$|
+|$cos(x)$|$-sin(x)$|
+|$tan(x)$|$\frac{1}{cos^2(x)}$|
+|$cot(x)$|$$|
+
+
+|$\varphi$ in °|$\delta$ in °|h|k|a|b|Längenverzerrung|Winkelverzerrung|Flächenverzerrung|
+|--|--|--|--|--|--|--|--|--|
+|0|90||||||||
+|30|60||||||||
+|60|30||||||||
+|90|0||||||||
