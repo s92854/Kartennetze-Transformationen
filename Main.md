@@ -186,9 +186,11 @@ $\frac{df(x)}{dx}$ bedeutet: Die Funktion $f(x)$ soll nach der Variable $x$ abge
 |$cot(x)$|$$|
 
 
-|$\varphi$ in °|$\delta$ in °|h|k|a|b|Längenverzerrung|Winkelverzerrung|Flächenverzerrung|
-|--|--|--|--|--|--|--|--|--|
-|0|90||||||||
-|30|60||||||||
-|60|30||||||||
-|90|0||||||||
+|$\varphi$ in °|$\delta$ in °|s|h=k=a=b|Längenverzerrung|Winkelverzerrung|Flächenverzerrung|
+|--|--|--|--|--|--|--|
+|0|90|2|0,25|||
+|30|60|$\frac{2\sqrt{3}}{3}=1,155$|$\frac{3}{4}$||||
+|60|30|$4-2\sqrt{3}=0,539$|$\frac{7+4\sqrt{3}}{4}$||||
+|90|0|0|0 oder n.l.||||
+
+Lösungen siehe Folien
