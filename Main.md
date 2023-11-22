@@ -71,6 +71,13 @@ $\delta = 90° - \Phi$
 * Loxodrome = Schneidet alle Breiten in gleichem Winkel
 
 ### Echte oder Unechte Abbildung?
+
+Echte Abb.:
+
+* Konzentrische Kreise
+* Meridiane und Breiten schneiden sich rechtwinklig
+* (mit Zirkel und Lineal konstruierbar)
+
 siehe AB
 
 A = 1
@@ -194,3 +201,40 @@ $\frac{df(x)}{dx}$ bedeutet: Die Funktion $f(x)$ soll nach der Variable $x$ abge
 |90|0|0|0 oder n.l.||||
 
 Lösungen siehe Folien
+
+### Exkurs: Tissotsche Indikatrix
+$s = tan(\frac{\delta}{2})$
+
+$h' = 2 * \frac{1}{cos^2(\frac{\delta}{2})} * \frac{1}{2}$
+
+&nbsp;
+
+$k = \frac{s}{sind(\delta}$
+
+$k = \frac{2*tan(\frac{\delta}{2})}{sind\delta}$
+
+$k = 2 * \frac{sin(\frac{\delta}{2})}{cos(\frac{\delta}{2})}$
+
+&nbsp;
+
+$sin(2\chi) = 2sin\chi * cos\chi$
+
+$sin(2\frac{\delta}{2}) = 2 * sin(\frac{\delta}{2}) * cos(\frac{\delta}{2})$
+
+&nbsp;
+
+### Azimutalabbildung nach BREUSING
+
+#### Arithmetisches Mittel zweier Halbmesser:
+
+$s = \frac{s1+s2)}{2}$
+
+#### Geometrisches Mittel (Wachstumsratenberechnung) zweier Halbmesser:
+$s = $
+
+#### Kombination zweier Mittel:
+
+$s = \frac{2 * sin(\frac{\delta}{2})}{\sqrt{cos(\frac{\delta}{2})}}$
+
+Wenn Projektion nicht winkel-, nicht flächen- und nicht längentreu ist, hat diese Abbildung ästhetische Zwecke, da diese meist recht formschön ist.
+
