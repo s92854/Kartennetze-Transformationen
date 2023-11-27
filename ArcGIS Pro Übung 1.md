@@ -50,7 +50,11 @@ UTM für das ebene Koordinatensystem ETRS89
 
 a) Wie heißen die beiden Methoden und bei welcher Methode handelt es sich um eine 7-Parameter-Transformation und bei welcher um einen gitterbasierten Transformationsansatz?
 
-  1. RD/83_To_ETRS_1989_2_NTv2 - Gitterbasierter Transformationsansatz [0.03m]
-  2. RD/83_To_ETRS_1989_1 - 7-Paramter Transformation
+  1. RD/83_To_ETRS_1989_2_NTv2 - Gitterbasierter Transformationsansatz [Ostd.: 0.03m]
+  2. RD/83_To_ETRS_1989_1 - 7-Paramter Transformation [ges. D: 1m]
 
 b) Wenden Sie beide Methoden an und speichern Sie die beiden umprojizierten shapefiles jeweils unter dem passenden Namen „Landkreis_Goerlitz_ESRI_7Parameter“ und „Landkreis_Goerlitz_ESRI_Gitter“ ab.
+
+[Transformationen.zip](https://github.com/s92854/Kartennetze-Transformationen/files/13476442/Transformationen.zip)
+
+4.
