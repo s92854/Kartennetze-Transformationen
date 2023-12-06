@@ -6,32 +6,40 @@ Das shapefile „Landkreis_Goerlitz“ liegt im alten, heute nicht mehr amtliche
 
 a) Wie lautet der Name des verwendeten projizierten Koordinatensystems bei ESRI?
 
+```
 RD 83 GK Zone 5
+```
 
 &nbsp;
 
 b) Welchen (EPSG)-Code hat es?
 
+```
 3399
+```
 
 &nbsp;
 
 c) Welche Projektion wird verwendet?
 
+```
 Gauss Kruger
+```
 
 &nbsp;
 
 d) Auf welchem Datum und Spheroid basiert es?
 
+```
 Datum: D Rauenberg 1983
-
 Spheroid: Bessel 1841
+```
 
 &nbsp;
 
 e) Für welchen Bereich von Sachsen ist es definiert (Area of Use, Min. Lat., Min. Long., Max. Lat., Max. Long.)?
 
+```
 Area of Use: Deutschland – Ost Deutschland alle Staaten/Bundesländer
 
 Min. Lat.: 50.200
@@ -41,6 +49,7 @@ Min. Long.: 9.920
 Max. Lat.: 54.740
 
 Max. Long.: 15.040
+```
 
 &nbsp;
 
@@ -48,7 +57,9 @@ Max. Long.: 15.040
 
 a) Welcher Name wird für das heute amtliche Lagebezugssystem von Sachsen auf den Internetseiten der „Geobasisinformation und Vermessung“ Sachsen verwendet?
 
+```
 UTM für das ebene Koordinatensystem ETRS89
+```
 
 &nbsp;
 
@@ -85,7 +96,13 @@ Anschließend muss man die Projektion noch anwenden, indem man ein ETRS89 KS aus
 
 &nbsp;
 
-b) Positionsvektor
+b) 
+
+```
+Positionsvektor
+```
+
+&nbsp;
 
 c) 
 
@@ -108,3 +125,9 @@ Durch Messen ergaben sich folgende Abstände untereinander:
 * ESRI-Gitter - Eigene ≈ 50 mm
 * ESRI-7-PAR - Eigene ≈ 260 mm
 * ESRI-7-PAR - ESRI-Gitter ≈ 30 mm
+
+&nbsp;
+
+&nbsp;
+
+## [Download](https://github.com/s92854/Kartennetze-Transformationen/files/13588634/3.Transformationen.zip) der Shapefiles
